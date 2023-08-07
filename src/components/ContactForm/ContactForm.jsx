@@ -2,7 +2,7 @@ import css from './ContactForm.module.css';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { addContact } from 'redux/actions';
+import { addContact } from 'redux/contactsSlice';
 import { getContacts } from 'redux/selectors';
 
 export function ContactForm() {
