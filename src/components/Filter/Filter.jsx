@@ -25,11 +25,4 @@ const Filter = () => {
     </label>)
 }
 
-export const handleFilter = (filter, contacts) => {
-  const filterData = filter.toLocaleLowerCase().trim();
-  return contacts.filter(contact =>
-    contact.name.toLocaleLowerCase().includes(filterData)
-  );
-};
-
 export default Filter;
