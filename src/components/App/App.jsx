@@ -3,16 +3,7 @@ import Filter from 'components/Filter';
 import ContactList from 'components/ContactList';
 
 export function App() {
-    
-  // const [contacts, setContacts] = useState(() => {
-  //   return JSON.parse(localStorage.getItem('contacts')) ?? defaultContacts;
-  // });
-
-  // useEffect(() => {
-  //   window.localStorage.setItem('contacts', JSON.stringify(contacts));
-  // }, [contacts]);
-
- return (
+  return (
       <div>
         <h1>Phonebook</h1>
         <ContactForm />
